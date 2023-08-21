@@ -15,6 +15,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CartComponent } from './cart/cart.component';
+import { ShippingComponent } from './shipping/shipping.component';
 
 @NgModule({
   // Declarations or register component
@@ -25,6 +26,7 @@ import { CartComponent } from './cart/cart.component';
     ProductAlertsComponent,
     ProductDetailsComponent,
     CartComponent,
+    ShippingComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,6 +38,7 @@ import { CartComponent } from './cart/cart.component';
       // upr intital router mein single inverted comma ke bich space nhi rhena chahiye
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'cart', component:  CartComponent },
+      { path: 'shipping', component: ShippingComponent },
     ]),
     BrowserAnimationsModule
   ],
