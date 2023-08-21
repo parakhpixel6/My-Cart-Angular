@@ -1,0 +1,3 @@
+1. Servers often return data in the form of a stream. 
+2. Streams r useful bcoz they make it easy to transform the returned data & make modifications to the way u request that data.
+3. Angular HttpClient is the in-built way to retrive or fetch the data from external api's & provide them to ur application as a stream
