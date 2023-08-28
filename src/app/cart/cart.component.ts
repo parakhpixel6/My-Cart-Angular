@@ -25,7 +25,7 @@ export class CartComponent {
 
   onSubmit(): void {
     this.items = this.cartService.clearCart();
-    console.warn('You Order was placed successfully', this.checkOutForm.value);
+    console.warn('You Order has been placed successfully', this.checkOutForm.value);
     this.checkOutForm.reset();
   }
 }
